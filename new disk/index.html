@@ -19,7 +19,7 @@
 
     <header class="header">
 
-        <a href="#" class="brand">
+        <a href="#top" class="brand">
             <img src="logo.png" alt="The Trend Cart Logo">
             <span>THE TREND CART</span>
         </a>
@@ -27,29 +27,49 @@
         <nav class="navbar" id="navbar">
 
             <a href="#all-products">All Products</a>
+
             <a href="#categories">Categories</a>
+
             <a href="#contact">Contact Us</a>
 
         </nav>
 
         <div class="header-actions">
 
-            <button class="theme-btn" id="themeButton" type="button">
+            <button
+                class="theme-btn"
+                id="themeButton"
+                type="button"
+                aria-label="Toggle Dark Mode">
                 🌙
             </button>
 
-            <button class="cart-btn" id="cartButton" type="button">
+            <button
+                class="cart-btn"
+                id="cartButton"
+                type="button"
+                aria-label="Open Cart">
 
                 <span>🛒</span>
-                <span class="cart-text">Cart</span>
 
-                <span class="cart-count" id="cartCount">
+                <span class="cart-text">
+                    Cart
+                </span>
+
+                <span
+                    class="cart-count"
+                    id="cartCount">
                     0
                 </span>
 
             </button>
 
-            <button class="menu-btn" id="menuButton" type="button">
+            <button
+                class="menu-btn"
+                id="menuButton"
+                type="button"
+                aria-label="Open Menu"
+                aria-expanded="false">
                 ☰
             </button>
 
@@ -60,7 +80,7 @@
 
     <!-- ================= MAIN ================= -->
 
-    <main>
+    <main id="top">
 
         <!-- ================= HERO ================= -->
 
@@ -82,7 +102,9 @@
                     figures, beautiful artificial flowers and more.
                 </p>
 
-                <a href="#all-products" class="hero-btn">
+                <a
+                    href="#all-products"
+                    class="hero-btn">
                     Shop Now →
                 </a>
 
@@ -93,7 +115,9 @@
 
         <!-- ================= PRODUCTS ================= -->
 
-        <section class="products-section" id="all-products">
+        <section
+            class="products-section"
+            id="all-products">
 
             <div class="section-heading">
 
@@ -114,7 +138,9 @@
 
             <!-- FILTERS -->
 
-            <div class="product-filters" id="categories">
+            <div
+                class="product-filters"
+                id="categories">
 
                 <button
                     class="filter-btn active"
@@ -127,7 +153,7 @@
                     class="filter-btn"
                     data-category="Anime Action Figures"
                     type="button">
-                    Anime
+                    ACTION FIGURE
                 </button>
 
                 <button
@@ -142,14 +168,19 @@
 
             <!-- PRODUCTS -->
 
-            <div class="products-grid" id="productsGrid"></div>
+            <div
+                class="products-grid"
+                id="productsGrid">
+            </div>
 
         </section>
 
 
         <!-- ================= CHECKOUT ================= -->
 
-        <section class="checkout-section" id="checkout">
+        <section
+            class="checkout-section"
+            id="checkout">
 
             <div class="checkout-container">
 
@@ -170,7 +201,9 @@
                 </div>
 
 
-                <form id="checkoutForm" class="checkout-form">
+                <form
+                    id="checkoutForm"
+                    class="checkout-form">
 
                     <div class="form-group">
 
@@ -328,7 +361,9 @@
 
         <!-- ================= CONTACT ================= -->
 
-        <section class="contact-section" id="contact">
+        <section
+            class="contact-section"
+            id="contact">
 
             <div class="contact-content">
 
@@ -399,9 +434,6 @@
 
                     </a>
 
-
-                    <!-- STORE -->
-
                 </div>
 
             </div>
@@ -413,12 +445,17 @@
 
     <!-- ================= CART OVERLAY ================= -->
 
-    <div class="cart-overlay" id="cartOverlay"></div>
+    <div
+        class="cart-overlay"
+        id="cartOverlay">
+    </div>
 
 
     <!-- ================= CART ================= -->
 
-    <aside class="cart-sidebar" id="cartSidebar">
+    <aside
+        class="cart-sidebar"
+        id="cartSidebar">
 
         <div class="cart-header">
 
@@ -428,14 +465,18 @@
 
             <button
                 id="closeCart"
-                type="button">
+                type="button"
+                aria-label="Close Cart">
                 ×
             </button>
 
         </div>
 
 
-        <div class="cart-items" id="cartItems"></div>
+        <div
+            class="cart-items"
+            id="cartItems">
+        </div>
 
 
         <div class="cart-footer">
@@ -469,14 +510,17 @@
 
     <!-- ================= PRODUCT MODAL ================= -->
 
-    <div class="product-modal" id="productModal">
+    <div
+        class="product-modal"
+        id="productModal">
 
         <div class="product-modal-box">
 
             <button
                 class="modal-close"
                 id="closeProductModal"
-                type="button">
+                type="button"
+                aria-label="Close Product">
                 ×
             </button>
 
@@ -498,8 +542,7 @@
                     id="modalCategory">
                 </p>
 
-                <h2 id="modalName">
-                </h2>
+                <h2 id="modalName"></h2>
 
                 <p
                     class="modal-price"
@@ -528,6 +571,21 @@
     </div>
 
 
+    <!-- ================= CART TOAST ================= -->
+
+    <div
+        class="cart-toast"
+        id="cartToast">
+
+        <span>✓</span>
+
+        <p id="cartToastMessage">
+            Added to Cart
+        </p>
+
+    </div>
+
+
     <!-- ================= FOOTER ================= -->
 
     <footer class="footer">
@@ -544,22 +602,81 @@
                     Discover what's trending.
                 </p>
 
+                <div class="footer-contact-mini">
+
+                    <p>
+                        📱 +91 93364 48752
+                    </p>
+
+                    <p>
+                        ✉️ thetrendcart46@gmail.com
+                    </p>
+
+                    <p>
+                        📸 @thetrendcart.46
+                    </p>
+
+                </div>
+
             </div>
 
 
-            <div class="footer-links">
+            <div class="footer-links-section">
 
-                <a href="#all-products">
-                    All Products
-                </a>
+                <h3>
+                    Quick Links
+                </h3>
 
-                <a href="#categories">
-                    Categories
-                </a>
+                <div class="footer-links">
 
-                <a href="#contact">
-                    Contact Us
-                </a>
+                    <a href="#all-products">
+                        All Products
+                    </a>
+
+                    <a href="#categories">
+                        Categories
+                    </a>
+
+                    <a href="#checkout">
+                        Checkout
+                    </a>
+
+                    <a href="#contact">
+                        Contact Us
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-links-section">
+
+                <h3>
+                    Connect With Us
+                </h3>
+
+                <div class="footer-links">
+
+                    <a
+                        href="https://wa.me/919336448752"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        WhatsApp
+                    </a>
+
+                    <a href="mailto:thetrendcart46@gmail.com">
+                        Email Us
+                    </a>
+
+                    <a
+                        href="https://www.instagram.com/thetrendcart.46/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Instagram
+                    </a>
+
+                </div>
 
             </div>
 
@@ -568,12 +685,20 @@
 
         <div class="footer-bottom">
 
-            © 2026 The Trend Cart. All Rights Reserved.
+            <span>
+                © 2026 The Trend Cart. All Rights Reserved.
+            </span>
+
+            <span>
+                Made with ❤️ for Trend Lovers
+            </span>
 
         </div>
 
     </footer>
 
+
+    <!-- IMPORTANT: JS MUST BE LAST -->
 
     <script src="script.js"></script>
 
