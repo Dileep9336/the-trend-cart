@@ -508,12 +508,12 @@ const products = [
 
     price: 1199,
 
-    image: "images/21.jpeg",
+    image: "images/21.png",
 
     stock: 10,
 
     description:
-        " [Single 250] Set of cute Shinchan mini collectible figures featuring multiple fun poses and colorful outfits. Perfect for Shinchan fans, collectors, kids, home decor, office desks, car dashboards and gifting.",
+        "[Single 99]Set of cute Shinchan mini collectible figures featuring multiple fun poses and colorful outfits. Perfect for Shinchan fans, collectors, kids, home decor, office desks, car dashboards and gifting.",
 
     size: "Mini Action Figure Size",
 
