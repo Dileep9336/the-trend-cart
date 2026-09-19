@@ -715,6 +715,102 @@ const products = [
     features:
         "Shinchan Nap Time Design, Cute & Funny Look, High Quality Material, Vibrant Colors, Detailed Finish, Durable & Adorable, Perfect Gift"
 },
+ {
+    id: 30,
+
+    name: "Naruto Anime Character Keychain Set – 2 Pcs",
+
+    category: "Anime Action Figures",
+
+    price: 199,
+
+    image: "images/30.jpeg",
+
+    stock: 10,
+
+    description:
+        "Naruto Anime Character Keychain Set featuring 2 adorable mini anime figures with vibrant colors and detailed design. Perfect for anime fans, backpack accessories, key collections and gifting. A stylish collectible set for Naruto lovers.",
+
+    size: "Mini Figure Keychain Size",
+
+    uses:
+        "Keys, Backpacks, School Bags, Anime Collection & Gifting",
+
+    features:
+        "Naruto Anime-Inspired Design, Set of 2 Keychains, Cute Mini Figure Style, Vibrant Colors, Metal Key Rings, Collectible Anime Accessories, Perfect Gift for Anime Fans"
+},
+{
+    id: 31,
+
+    name: "Naruto Anime Character Keychain Set – 2 Pcs",
+
+    category: "Anime Keychains",
+
+    price: 199,
+
+    image: "images/31.jpeg",
+
+    stock: 10,
+
+    description:
+        "Naruto Anime Character Keychain Set featuring 2 detailed mini character figures inspired by the Naruto anime series. Includes two colorful character keychains with durable key rings, perfect for backpacks, school bags, keys, anime collections and gifting. A fun collectible accessory for Naruto anime fans.",
+
+    size: "Mini Figure Keychain Size",
+
+    uses:
+        "Keys, Backpacks, School Bags, Anime Collection & Gifting",
+
+    features:
+        "Naruto Anime-Inspired Design, Set of 2 Keychains, Detailed Mini Character Figures, Vibrant Colors, Durable Key Rings, Collectible Anime Accessories, Perfect Gift for Anime Fans"
+},
+{
+    id: 32,
+
+    name: "Naruto Anime Character Keychain Set – 2 Pcs",
+
+    category: "Anime Keychains",
+
+    price: 199,
+
+    image: "images/32.jpeg",
+
+    stock: 10,
+
+    description:
+        "Naruto Anime Character Keychain Set featuring 2 detailed mini character figures. The set includes colorful anime-inspired keychains with durable metal key rings, perfect for keys, backpacks, school bags, anime collections and gifting. A stylish collectible accessory for Naruto fans.",
+
+    size: "Mini Figure Keychain Size",
+
+    uses:
+        "Keys, Backpacks, School Bags, Anime Collection & Gifting",
+
+    features:
+        "Naruto Anime-Inspired Design, Set of 2 Keychains, Detailed Mini Character Figures, Vibrant Colors, Durable Metal Key Rings, Collectible Anime Accessories, Perfect Gift for Anime Fans"
+},
+{
+    id: 33,
+
+    name: "Naruto Anime Character Keychain Set – 2 Pcs",
+
+    category: "Anime Keychains",
+
+    price: 199,
+
+    image: "images/33.jpeg",
+
+    stock: 10,
+
+    description:
+        "Naruto Anime Character Keychain Set featuring 2 detailed mini character figures. The set includes colorful anime-inspired keychains with durable metal key rings, perfect for keys, backpacks, school bags, anime collections and gifting. A stylish collectible accessory for Naruto fans.",
+
+    size: "Mini Figure Keychain Size",
+
+    uses:
+        "Keys, Backpacks, School Bags, Anime Collection & Gifting",
+
+    features:
+        "Naruto Anime-Inspired Design, Set of 2 Keychains, Detailed Mini Character Figures, Vibrant Colors, Durable Metal Key Rings, Collectible Anime Accessories, Perfect Gift for Anime Fans"
+},
 ];
 
 
